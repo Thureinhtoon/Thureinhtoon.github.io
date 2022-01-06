@@ -883,7 +883,43 @@ footer {
 	margin-top: 3rem;
 }
 /*scrollSpy*/
+#custom-border-1{
+	width: 9%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 3px solid var(--custom-bg);
+	
+}
+#cutom-border-2{
+	width:35%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 3px solid var(--custom-bg);
+	margin-bottom: 0.4rem;
+	margin-top: 0px;
+}
+@media screen and (max-width: 768px){
 
+#custom-border-1{
+	width: 25%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 3px solid var(--custom-bg);
+	
+}
+#cutom-border-2{
+	width:32%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 3px solid var(--custom-bg);
+	margin-bottom: 0.4rem;
+	margin-top: 0px;
+}
+}
 @media screen and (max-width: 768px){
 	#intro {
 		margin-top: 1rem;
