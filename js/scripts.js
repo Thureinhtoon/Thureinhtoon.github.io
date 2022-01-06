@@ -52,12 +52,12 @@ var ourServices = [
 
   {
     'title': 'Backend Developer',
-    'text': 'Praesent finibus tincidunt sem non sodales. Nunc et quam in magna vehicula sollicitudin. Aliquam erat volutpat. Maecenas dolor mi, aliquet ac quam aliquet, condimentum dictum nisi.'
+    'text': 'I am trying to become a professional web developer.I have web development experience from last 2 years. I am working on HTML, CSS,BOOTSTRAP, Jquery, Javascript, VUE, PHP,LARAVEL. I have also worked on Search engine optimization, website performance.'
   },
 
   {
     'title': 'Freelancer',
-    'text': 'Nunc et quam in magna vehicula sollicitudin. Aliquam erat volutpat. Maecenas dolor mi, aliquet ac quam aliquet, condimentum dictum nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus.'
+    'text': 'Get the user requirement specifications and draw the mockups and draw the flowchart diagrams in order to understand system clearly for both team members and product owner.Design and development the whole site with other two team members.Demonstrate to users how to use the website and provide technical supports.Structure the whole database Design. Managed the corporate website platform.'
   }
   
 ];
@@ -128,8 +128,6 @@ document.getElementById("current_year").innerHTML = new Date().getFullYear();
 
 	};
 */
-
-
 
 
    
