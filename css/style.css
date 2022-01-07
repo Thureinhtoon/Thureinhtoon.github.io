@@ -940,6 +940,10 @@ footer {
 		margin-top: 3rem;
 	}
 
+  .about-me .font-bar{
+    text-align: justify;
+  }
+
 }
 
 /*education*/

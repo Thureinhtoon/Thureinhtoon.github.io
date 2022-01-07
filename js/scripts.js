@@ -47,7 +47,7 @@ for (var a = 0; a < aboutUsTabs.length; a++) {
 var ourServices = [
   {
     'title': 'Web design',
-    'text': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus tincidunt sem non sodales. Nunc et quam in magna vehicula sollicitudin. Aliquam erat volutpat. Maecenas dolor mi, aliquet ac quam aliquet, condimentum dictum nisi.'
+    'text': 'Hi, I am ThuReinTun!👋, a 23-year old technical enthusiast who does web development. Passionate to create beautiful design  and make cool products.'
   },
 
   {
@@ -128,6 +128,9 @@ document.getElementById("current_year").innerHTML = new Date().getFullYear();
 
 	};
 */
+
+
+//update this with your js_form selector
 
 
    
