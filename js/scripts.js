@@ -128,7 +128,24 @@ document.getElementById("current_year").innerHTML = new Date().getFullYear();
 
 	};
 */
+function myFunction() {			
+  swal("", "Your Email has been sent!", "success");
+    }
+/*checking email is null or not*/
 
+$('#submit_form').click(function(){
+  var subject = $('#subject').val();
+  var extra_fullName = $('#extra_fullName').val();
+  var extra_email = $('#extra_email').val();
+  var text = $('#text').val();
+  if (subject == '' || subject == '' || extra_email == '' || text == '') {
+    swal("", "Please enter missing fields!", "error");
+
+  }
+  else{
+    swal("","Your email has been sent!","success");
+  }
+});
 
 //update this with your js_form selector
 

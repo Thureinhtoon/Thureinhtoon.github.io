@@ -31,7 +31,7 @@
 				<div class="global-page-container">
 				
 					<div class="logo small-6 small-offset-3 large-3 large-offset-0 columns no-padding">
-						<a href="index.html" title="home">
+						<a href="https://bit.ly/3HLiNZf" title="home">
 							<div class="table">
 								<div class="table-cell">
                                    <h1> <span class="square">&nbsp;</span>THUREIN</h1>
@@ -352,18 +352,18 @@
                     <form action="https://postmail.invotes.com/send"
                         method="post" id="email_form">
 
-                        <input type="text" name="subject" placeholder="Subject" />
-                        <input type="text" name="extra_fullName"
+                        <input type="text" id="subject" name="subject" placeholder="Subject" />
+                        <input type="text" name="extra_fullName" id="extra_fullName"
                                     placeholder="Full Name" />
-                         <input type="text" name="extra_email"
+                         <input type="text" name="extra_email" id="extra_email"
                                     placeholder="E-mail Address" />
-                        <textarea name="text" placeholder="Message"></textarea>
+                        <textarea name="text" id="textarea" placeholder="Message"></textarea>
                         <input type="hidden" name="access_token" value="omxso0s0igjotv8tv0zvrm5o" />
                         <!-- return urls can be fully qualified -OR-
                             start with / for root relative -OR-
                             start with . for url relative --> 
-                        <input type="hidden" name="success_url" value="https://www.google.com" />
-                        <input type="hidden" name="error_url" value="https://www.google.com" />
+                        <input type="hidden" name="success_url" value="https://thureinhtoon.github.io/" />
+                        <input type="hidden" name="error_url" value="https://www.pipsnacks.com/404" />
                     
 
                         <!-- set the reply-to address -->
@@ -381,6 +381,7 @@
                                     name="sms_format" value="true" /> -->
                     
                         <input id="submit_form" type="submit" value="Send" />
+                        
 
                     </form>
 
@@ -440,8 +441,14 @@
             </div>
 
         </footer>
-
-
+	<!-- bootstrap js  -->	
+	<script src="library/bootstrap/jquery-3.4.1.slim.min.js"></script>
+	<script src="library/bootstrap/popper.min.js"></script>
+	<script src="library/bootstrap/bootstrap.min.js"></script>	
+	<!-- jquery cdn -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- sweetalert js cdn -->
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>	
         <script src="js/vendor/jquery.js"></script>
         <script src="js/scripts.js"></script>
         <script src="js/vendor/foundation.min.js"></script>
