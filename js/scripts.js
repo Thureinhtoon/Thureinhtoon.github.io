@@ -13,9 +13,9 @@ document.getElementById("sliding-header-menu-close-button").onclick = function()
 // About us Tab
 
 var aboutUs = {
-  "Mission": "Duis ac leo nisi. Mauris nec ex id lorem commodo rutrum rutrum a est. Cras facilisis sit amet lectus non posuere. Nullam non magna non enim blandit elementum.",
-  "Vision": "Praesent ut lacinia neque, faucibus suscipit quam. Duis sed nunc rutrum, tempor mi at, euismod nibh.",
-  "Values": "<ul><li>Nunc iaculis</li><li>Donec dictum fringilla</li><li>Duis convallis tortor ultrices</li><li>Curabitur in est lectus</li><li>Maecenas condimentum elit</li></ul>"
+  "Introvert": "I myself an introvert and it helps focusing on my field. So I personally think that approximately 85% people who are successful in this field are introverts.So I like doing things on my own.May be sitting at a PC through the all day long or playing giutar.I prefer to listen rather than talk.  ",
+  "Reading": "I am too fond of reading books.You can learn nearly everything from them.I usually read alot of books about Programming,World,Science and other famous books.I also write some Tech Things at<a href=\"https://www.facebook.com/SolutionProvider24\">WebDevelopmentWithKK</a> facebook page",
+  "Goals": "<ul><li>To Become Professional FullStack Developer in near Future</li><li>To make an Album before 30 years old</li><li>To travel around the World</li><li>To have a lovely dog.</li><li>To live with peace of mind.</li></ul>"
 };
 
 var unseletectedColor = "#646872";
